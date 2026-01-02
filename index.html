@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Мой простой сайт</h1>
+      <p class="site-subtitle">Разворачивается одной командой через install.sh</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>О сайте</h2>
+      <p>
+        Это пример простого статического сайта, который можно установить на свой
+        сервер с помощью автоматического shell-скрипта.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Как используется</h2>
+      <ol>
+        <li>Заливаете этот репозиторий на GitHub.</li>
+        <li>На сервере выполняете одну команду с <code>wget</code> и <code>bash</code>.</li>
+        <li>Скрипт спрашивает домен и настраивает nginx + SSL.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Мой сайт</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
